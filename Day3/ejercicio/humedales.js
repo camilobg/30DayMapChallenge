@@ -33,14 +33,13 @@ fetch('https://overpass-api.de/api/interpreter', {
         let gj = osmtogeojson(osm);
         let wetlands = L.geoJSON(gj, {
             pointToLayer:(feture, latlng) => false,
-            style: function(){
+            style: function(feature){
+                if (!feature.properties.tags.name) return { color: '#0f4b0dff', weight: 1, fillColor: '#0b630fff', fillOpacity: 0.5 }
                 return { color: '#18b813ff', weight: 1, fillColor: '#18e622ff', fillOpacity: 0.5 };
             },
             onEachFeature: function(feature, layer){
                 let t = '';
                 if (feature.properties && feature.properties.tags) {
-                    console.log(feature);
-                    
                     let tags = feature.properties.tags;
                     let n = tags.name || '';
                     let en = tags['name:en'] || '';

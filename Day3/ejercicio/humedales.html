@@ -9,10 +9,80 @@
   <script src="https://unpkg.com/osmtogeojson@2.2.12/osmtogeojson.js"></script>
   <style>
     html, body, #map { height: 100%; margin: 0; }
+    .info{
+        position: absolute;
+        right: 1%;
+        bottom: 3%;
+        background-color: white;
+        padding: 12px 30px;
+        border-radius: 12px;
+        z-index: 400;
+    }
+    .info b{
+        margin: 5px 0px;
+        display: block;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1px;
+        margin: 1px;
+    }
+
+    .row p{
+        margin: 5px 0px;
+    }
+
+    .cuadro-color1{
+        height: 15px;
+        width: 15px;
+        background-color: #0b630fff;
+        border: 1px;
+        color: #0f4b0dff;
+        margin: 0px 10px;
+        
+    }
+
+    .cuadro-color2{
+        height: 15px;
+        width: 15px;
+        background-color: #18e622ff;
+        border: 1px;
+        color: #18b813ff;
+        margin: 0px 10px;
+    }
+
+    .titulo{
+        position: absolute;
+        right: 3%;
+        top: 3%;
+        background-color: white;
+        padding: 12px 30px;
+        border-radius: 12px;
+        z-index: 401;
+    }
+
   </style>
 </head>
 <body>
+    <div class="titulo">
+        <h3>Humedales en Cundinamarca</h1>
+        <p>Fuente: OpenStreetMap</p>
+    </div>
   <div id="map"></div>
+  <div class="info">
+    <b>Leyenda</b>
+    <br>
+    <div class="row">
+        <div class="cuadro-color1"></div>
+        <p>Humedal sin nombre</p>
+    </div>
+    <div class="row">
+        <div class="cuadro-color2"></div>
+        <p>Humedal con nombre</p>
+    </div>
+  </div>
   <script src = "./humedales.js"></script>
 </body>
 </html>
