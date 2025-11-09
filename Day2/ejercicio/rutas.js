@@ -75,7 +75,7 @@ fetch(inventario)
     
                     
             
-                    let hh =L.Proj.geoJson(geom, {
+                    var hh =L.Proj.geoJson(geom, {
                         style: ( ) => {return { color:'#00ffff', weight:4, opacity: 0.8};}
                     }).addTo(map);
                     console.log(hh);
@@ -103,8 +103,11 @@ fetch(inventario)
                         let name = feature.properties.Nombre
                         let desc = feature.properties.Nombre_Pro
                         marker.bindPopup('<b>' + name + '</b>' + ('<br>' + desc))
+                        //this.setStyle(() => {return {color:'#bbbf'}})
                     }
                 }).addTo(map);
+                
+                
             })
     })
     .catch(e => {
