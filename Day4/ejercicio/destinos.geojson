@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "from": "BOG", "to": "CTG" }, "geometry": { "type": "LineString", "coordinates": [[-74.1469, 4.7016], [-75.1336, 10.4411]] } },
+    { "type": "Feature", "properties": { "from": "CTG", "to": "MDE" }, "geometry": { "type": "LineString", "coordinates": [[-75.1336, 10.4411], [-73.7852, 6.1643]] } },
+    { "type": "Feature", "properties": { "from": "MDE", "to": "BOG" }, "geometry": { "type": "LineString", "coordinates": [[-73.7852, 6.1643], [-74.1469, 4.7016]] } },
+    
+    { "type": "Feature", "properties": { "from": "BOG", "to": "CLO" }, "geometry": { "type": "LineString", "coordinates": [[-74.1469, 4.7016], [-76.3814, 3.5350]] } },
+    { "type": "Feature", "properties": { "from": "CLO", "to": "BAQ" }, "geometry": { "type": "LineString", "coordinates": [[-76.3814, 3.5350], [-74.7865, 10.8874]] } },
+    { "type": "Feature", "properties": { "from": "BAQ", "to": "BOG" }, "geometry": { "type": "LineString", "coordinates": [[-74.7865, 10.8874], [-74.1469, 4.7016]] } },
+    
+    { "type": "Feature", "properties": { "from": "BOG", "to": "SMR" }, "geometry": { "type": "LineString", "coordinates": [[-74.1469, 4.7016], [-74.2307, 11.1246]] } },
+    { "type": "Feature", "properties": { "from": "SMR", "to": "ADZ" }, "geometry": { "type": "LineString", "coordinates": [[-74.2307, 11.1246], [-81.7107, 12.5833]] } },
+    { "type": "Feature", "properties": { "from": "ADZ", "to": "BOG" }, "geometry": { "type": "LineString", "coordinates": [[-81.7107, 12.5833], [-74.1469, 4.7016]] } },
+
+    { "type": "Feature", "properties": { "from": "MDE", "to": "PEI" }, "geometry": { "type": "LineString", "coordinates": [[-73.7852, 6.1643], [-75.7335, 4.8118]] } },
+    { "type": "Feature", "properties": { "from": "PEI", "to": "AXM" }, "geometry": { "type": "LineString", "coordinates": [[-75.7335, 4.8118], [-75.6946, 4.4507]] } },
+    { "type": "Feature", "properties": { "from": "AXM", "to": "BGA" }, "geometry": { "type": "LineString", "coordinates": [[-75.6946, 4.4507], [-73.1878, 7.1265]] } },
+    { "type": "Feature", "properties": { "from": "BGA", "to": "CUC" }, "geometry": { "type": "LineString", "coordinates": [[-73.1878, 7.1265], [-72.5113, 8.7058]] } },
+    { "type": "Feature", "properties": { "from": "CUC", "to": "EOH" }, "geometry": { "type": "LineString", "coordinates": [[-72.5113, 8.7058], [-75.5674, 6.2201]] } },
+    { "type": "Feature", "properties": { "from": "EOH", "to": "MDE" }, "geometry": { "type": "LineString", "coordinates": [[-75.5674, 6.2201], [-73.7852, 6.1643]] } },
+
+    { "type": "Feature", "properties": { "name": "Providencia El Embrujo", "code": "PVA", "attraction": "Peak (El Pico) y Old Providence McBean Lagoon National Natural Park" }, "geometry": { "type": "Point", "coordinates": [-81.3542, 13.3514] } },
+    { "type": "Feature", "properties": { "name": "Bogotá El Dorado", "code": "BOG", "attraction": "Museo del Oro y La Candelaria" }, "geometry": { "type": "Point", "coordinates": [-74.1469, 4.7016] } },
+    { "type": "Feature", "properties": { "name": "Cartagena Rafael Núñez", "code": "CTG", "attraction": "Murallas y Ciudad Amurallada" }, "geometry": { "type": "Point", "coordinates": [-75.1336, 10.4411] } },
+    { "type": "Feature", "properties": { "name": "Rionegro José María Córdova (Medellín)", "code": "MDE", "attraction": "Piedra del Peñol y Guatapé" }, "geometry": { "type": "Point", "coordinates": [-73.7852, 6.1643] } },
+    { "type": "Feature", "properties": { "name": "Cali Alfonso Bonilla Aragón", "code": "CLO", "attraction": "Monumento a Cristo Rey y barrio San Antonio" }, "geometry": { "type": "Point", "coordinates": [-76.3814, 3.5350] } },
+    { "type": "Feature", "properties": { "name": "Barranquilla Ernesto Cortissoz", "code": "BAQ", "attraction": "Ventana al Mundo y el Gran Malecón" }, "geometry": { "type": "Point", "coordinates": [-74.7865, 10.8874] } },
+    { "type": "Feature", "properties": { "name": "Santa Marta Simón Bolívar", "code": "SMR", "attraction": "Parque Nacional Natural Tayrona" }, "geometry": { "type": "Point", "coordinates": [-74.2307, 11.1246] } },
+    { "type": "Feature", "properties": { "name": "San Andrés Gustavo Rojas Pinilla", "code": "ADZ", "attraction": "Mar de los Siete Colores y Cayo Haynes" }, "geometry": { "type": "Point", "coordinates": [-81.7107, 12.5833] } },
+    { "type": "Feature", "properties": { "name": "Pereira Matecaña (Eje Cafetero)", "code": "PEI", "attraction": "Valle del Cocora (Cerca de Salento)" }, "geometry": { "type": "Point", "coordinates": [-75.7335, 4.8118] } },
+    { "type": "Feature", "properties": { "name": "Armenia El Edén (Eje Cafetero)", "code": "AXM", "attraction": "Parque Nacional del Café" }, "geometry": { "type": "Point", "coordinates": [-75.6946, 4.4507] } },
+    { "type": "Feature", "properties": { "name": "Bucaramanga Palonegro", "code": "BGA", "attraction": "Cañón del Chicamocha (Parque Nacional del Chicamocha)" }, "geometry": { "type": "Point", "coordinates": [-73.1878, 7.1265] } },
+    { "type": "Feature", "properties": { "name": "Cúcuta Camilo Daza", "code": "CUC", "attraction": "Parque Grancolombiano y Templo Histórico de Cúcuta" }, "geometry": { "type": "Point", "coordinates": [-72.5113, 8.7058] } },
+    { "type": "Feature", "properties": { "name": "Leticia Alfredo Vásquez Cobo (Amazonas)", "code": "LET", "attraction": "Parque Santander (observación de aves y delfines rosados)" }, "geometry": { "type": "Point", "coordinates": [-69.9329, -4.1937] } },
+    { "type": "Feature", "properties": { "name": "Montería Los Garzones", "code": "MTR", "attraction": "Ronda del Sinú y Ciénaga de Ayapel" }, "geometry": { "type": "Point", "coordinates": [-75.8273, 8.8236] } },
+    { "type": "Feature", "properties": { "name": "Neiva Benito Salas", "code": "NVA", "attraction": "Desierto de la Tatacoa" }, "geometry": { "type": "Point", "coordinates": [-75.2941, 2.9515] } },
+    { "type": "Feature", "properties": { "name": "Pasto Antonio Nariño", "code": "PSO", "attraction": "Santuario de Las Lajas (Ipiales) y Laguna de Cocha" }, "geometry": { "type": "Point", "coordinates": [-77.2917, 1.3976] } },
+    { "type": "Feature", "properties": { "name": "Popayán Guillermo León Valencia", "code": "PPN", "attraction": "Centro Histórico (Ciudad Blanca) y Puente del Humilladero" }, "geometry": { "type": "Point", "coordinates": [-76.6067, 2.4497] } },
+    { "type": "Feature", "properties": { "name": "Riohacha Almirante Padilla", "code": "RCH", "attraction": "Cabo de la Vela y Punta Gallinas (Alta Guajira)" }, "geometry": { "type": "Point", "coordinates": [-73.9575, 11.5273] } },
+    { "type": "Feature", "properties": { "name": "Valledupar Alfonso López Pumarejo", "code": "VUP", "attraction": "Río Guatapurí y la Plaza Alfonso López" }, "geometry": { "type": "Point", "coordinates": [-73.2505, 10.4357] } },
+    { "type": "Feature", "properties": { "name": "Villavicencio Vanguardia", "code": "VVC", "attraction": "Parque Los Ocarros (Fauna Llanera) y Bioparque Los Fundadores" }, "geometry": { "type": "Point", "coordinates": [-73.6186, 4.1481] } },
+    { "type": "Feature", "properties": { "name": "Medellín Olaya Herrera (Urbano)", "code": "EOH", "attraction": "Pueblito Paisa y Parque de El Poblado" }, "geometry": { "type": "Point", "coordinates": [-75.5674, 6.2201] } }
+  ]
+}

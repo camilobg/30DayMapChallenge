@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "from": "BER", "to": "CPH" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[12.6508,55.6181]] } },
+    { "type": "Feature", "properties": { "from": "CPH", "to": "KEF" }, "geometry": { "type": "LineString", "coordinates": [[12.6508,55.6181],[-22.6056,63.9850]] } },
+    { "type": "Feature", "properties": { "from": "KEF", "to": "ARN" }, "geometry": { "type": "LineString", "coordinates": [[-22.6056,63.9850],[17.9186,59.6519]] } },
+    { "type": "Feature", "properties": { "from": "ARN", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[17.9186,59.6519],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "CFU" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[19.9117,39.6019]] } },
+    { "type": "Feature", "properties": { "from": "CFU", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[19.9117,39.6019],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "MUC" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[11.7861,48.3538]] } },
+    { "type": "Feature", "properties": { "from": "MUC", "to": "IKA" }, "geometry": { "type": "LineString", "coordinates": [[11.7861,48.3538],[51.1522,35.4161]] } },
+    { "type": "Feature", "properties": { "from": "IKA", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[51.1522,35.4161],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "IKA" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[51.1522,35.4161]] } },
+    { "type": "Feature", "properties": { "from": "IKA", "to": "VIE" }, "geometry": { "type": "LineString", "coordinates": [[51.1522,35.4161],[16.5697,48.1103]] } },
+    { "type": "Feature", "properties": { "from": "VIE", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[16.5697,48.1103],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "MSY", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[-90.2580,29.9934],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "IKA" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[51.1522,35.4161]] } },
+    { "type": "Feature", "properties": { "from": "IKA", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[51.1522,35.4161],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "TFS" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[-16.5725,28.0445]] } },
+    { "type": "Feature", "properties": { "from": "TFS", "to": "MUC" }, "geometry": { "type": "LineString", "coordinates": [[-16.5725,28.0445],[11.7861,48.3538]] } },
+    { "type": "Feature", "properties": { "from": "MUC", "to": "SEA" }, "geometry": { "type": "LineString", "coordinates": [[11.7861,48.3538],[-122.3088,47.4502]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "GOT" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[12.2798,57.6628]] } },
+    { "type": "Feature", "properties": { "from": "GOT", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[12.2798,57.6628],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "CDG" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[2.55,49.0097]] } },
+    { "type": "Feature", "properties": { "from": "CDG", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[2.55,49.0097],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "ATH" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[23.9445,37.9364]] } },
+    { "type": "Feature", "properties": { "from": "ATH", "to": "HER" }, "geometry": { "type": "LineString", "coordinates": [[23.9445,37.9364],[25.1803,35.3397]] } },
+    { "type": "Feature", "properties": { "from": "HER", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[25.1803,35.3397],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "FCO" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[12.2508,41.8003]] } },
+    { "type": "Feature", "properties": { "from": "FCO", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[12.2508,41.8003],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "BCN" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[2.0785,41.2974]] } },
+    { "type": "Feature", "properties": { "from": "BCN", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[2.0785,41.2974],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "FAO" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[-7.9659,37.0144]] } },
+    { "type": "Feature", "properties": { "from": "FAO", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[-7.9659,37.0144],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "from": "BER", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[13.5033,52.3667],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "SIN" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[103.987,1.3644]] } },
+    { "type": "Feature", "properties": { "from": "SIN", "to": "SYD" }, "geometry": { "type": "LineString", "coordinates": [[103.987,1.3644],[151.1772,-33.9461]] } },
+    { "type": "Feature", "properties": { "from": "SYD", "to": "SIN" }, "geometry": { "type": "LineString", "coordinates": [[151.1772,-33.9461],[103.987,1.3644]] } },
+    { "type": "Feature", "properties": { "from": "SIN", "to": "FRA" }, "geometry": { "type": "LineString", "coordinates": [[103.987,1.3644],[8.5706,50.0333]] } },
+    { "type": "Feature", "properties": { "from": "FRA", "to": "BER" }, "geometry": { "type": "LineString", "coordinates": [[8.5706,50.0333],[13.5033,52.3667]] } },
+
+    { "type": "Feature", "properties": { "name": "Berlin Brandenburg", "code": "BER" }, "geometry": { "type": "Point", "coordinates": [13.5033, 52.3667] } },
+    { "type": "Feature", "properties": { "name": "Copenhagen", "code": "CPH" }, "geometry": { "type": "Point", "coordinates": [12.6508, 55.6181] } },
+    { "type": "Feature", "properties": { "name": "Keflavík", "code": "KEF" }, "geometry": { "type": "Point", "coordinates": [-22.6056, 63.9850] } },
+    { "type": "Feature", "properties": { "name": "Stockholm Arlanda", "code": "ARN" }, "geometry": { "type": "Point", "coordinates": [17.9186, 59.6519] } },
+    { "type": "Feature", "properties": { "name": "Corfu (Kerkyra)", "code": "CFU" }, "geometry": { "type": "Point", "coordinates": [19.9117, 39.6019] } },
+    { "type": "Feature", "properties": { "name": "Munich", "code": "MUC" }, "geometry": { "type": "Point", "coordinates": [11.7861, 48.3538] } },
+    { "type": "Feature", "properties": { "name": "Tehran Imam Khomeini", "code": "IKA" }, "geometry": { "type": "Point", "coordinates": [51.1522, 35.4161] } },
+    { "type": "Feature", "properties": { "name": "Frankfurt", "code": "FRA" }, "geometry": { "type": "Point", "coordinates": [8.5706, 50.0333] } },
+    { "type": "Feature", "properties": { "name": "Vienna", "code": "VIE" }, "geometry": { "type": "Point", "coordinates": [16.5697, 48.1103] } },
+    { "type": "Feature", "properties": { "name": "New Orleans (MSY)", "code": "MSY" }, "geometry": { "type": "Point", "coordinates": [-90.2580, 29.9934] } },
+    { "type": "Feature", "properties": { "name": "Tenerife South", "code": "TFS" }, "geometry": { "type": "Point", "coordinates": [-16.5725, 28.0445] } },
+    { "type": "Feature", "properties": { "name": "Gothenburg Landvetter", "code": "GOT" }, "geometry": { "type": "Point", "coordinates": [12.2798, 57.6628] } },
+    { "type": "Feature", "properties": { "name": "Paris Charles de Gaulle", "code": "CDG" }, "geometry": { "type": "Point", "coordinates": [2.55, 49.0097] } },
+    { "type": "Feature", "properties": { "name": "Athens", "code": "ATH" }, "geometry": { "type": "Point", "coordinates": [23.9445, 37.9364] } },
+    { "type": "Feature", "properties": { "name": "Heraklion", "code": "HER" }, "geometry": { "type": "Point", "coordinates": [25.1803, 35.3397] } },
+    { "type": "Feature", "properties": { "name": "Rome Fiumicino", "code": "FCO" }, "geometry": { "type": "Point", "coordinates": [12.2508, 41.8003] } },
+    { "type": "Feature", "properties": { "name": "Barcelona", "code": "BCN" }, "geometry": { "type": "Point", "coordinates": [2.0785, 41.2974] } },
+    { "type": "Feature", "properties": { "name": "Faro", "code": "FAO" }, "geometry": { "type": "Point", "coordinates": [-7.9659, 37.0144] } },
+    { "type": "Feature", "properties": { "name": "Singapore Changi", "code": "SIN" }, "geometry": { "type": "Point", "coordinates": [103.987, 1.3644] } },
+    { "type": "Feature", "properties": { "name": "Sydney", "code": "SYD" }, "geometry": { "type": "Point", "coordinates": [151.1772, -33.9461] } },
+    { "type": "Feature", "properties": { "name": "Seattle-Tacoma", "code": "SEA" }, "geometry": { "type": "Point", "coordinates": [-122.3088, 47.4502] } }
+  ]
+}
