@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Day 5 Earth</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/dark/main.css" />
+  <script src="https://js.arcgis.com/4.29/"></script>
+  <style>
+    html, body, #viewDiv { height: 100%; margin: 0; background:#0a0a0a; }
+
+    .poster {
+      position:absolute; top:30px; right:30px;
+      text-align:right; color:#e9e6e3; letter-spacing:.08em;
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      pointer-events:none;
+      text-shadow: 0 0 6px rgba(0,0,0,.6);
+    }
+    .poster h1 { margin:0; font-weight:600; font-size:32px; }
+    .poster h2 { margin:.2rem 0 0; font-weight:300; font-size:13px; opacity:.85; }
+    .poster small { display:block; margin-top:.4rem; font-size:11px; opacity:.7; }
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+
+  <div id="poster" class="poster">
+    <h2>EARTHQUAKES</h2>
+    <h1 id="poster-region"></h1>
+    <h2 id="poster-info"></h2>
+    <small>#30DayMapChallenge · Data: USGS ComCat</small>
+  </div>
+
+  <script src="./day5_earth.js"></script>
+</body>
+</html>
