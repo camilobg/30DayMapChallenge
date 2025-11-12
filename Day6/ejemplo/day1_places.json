@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "name": "Iceland Trip – Day 1",
+  "features": [
+    { "type": "Feature",
+      "properties": { "name": "Keflavík International Airport", "description": "Arrival / departure" },
+      "geometry": { "type": "Point", "coordinates": [-22.6056, 63.9850] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Eyrarbakki (hotel)", "description": "Seaside village stay" },
+      "geometry": { "type": "Point", "coordinates": [-21.1494, 63.8667] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Kerið Crater" },
+      "geometry": { "type": "Point", "coordinates": [-20.8851, 64.0414] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Geysir", "description": "Geothermal area" },
+      "geometry": { "type": "Point", "coordinates": [-20.3024, 64.3104] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Flúðir", "description": "Food stop" },
+      "geometry": { "type": "Point", "coordinates": [-20.3267, 64.1373] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Gullfoss", "description": "Waterfall" },
+      "geometry": { "type": "Point", "coordinates": [-20.1218, 64.3275] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Skógar" },
+      "geometry": { "type": "Point", "coordinates": [-19.5110, 63.5240] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Skógafoss", "description": "Waterfall" },
+      "geometry": { "type": "Point", "coordinates": [-19.5116, 63.5321] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Kvernufoss", "description": "Waterfall next to Skógafoss" },
+      "geometry": { "type": "Point", "coordinates": [-19.4719, 63.5296] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Sólheimajökull", "description": "Glacier walk" },
+      "geometry": { "type": "Point", "coordinates": [-19.3680, 63.5305] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Vík í Mýrdal" },
+      "geometry": { "type": "Point", "coordinates": [-19.0060, 63.4187] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Skool Beans (School Bus Coffee)" },
+      "geometry": { "type": "Point", "coordinates": [-19.0069, 63.4179] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Reynisfjara Black Sand Beach" },
+      "geometry": { "type": "Point", "coordinates": [-19.0555, 63.4044] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Diamond Beach (Breiðamerkursandur)" },
+      "geometry": { "type": "Point", "coordinates": [-16.1784, 64.0445] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Fosshotel Vatnajökull" },
+      "geometry": { "type": "Point", "coordinates": [-15.2130, 64.2483] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Seyðisfjörður" },
+      "geometry": { "type": "Point", "coordinates": [-14.0079, 65.2623] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Kaffi Lára – El Grillo Bar" },
+      "geometry": { "type": "Point", "coordinates": [-14.0097, 65.2626] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Dettifoss", "description": "Powerful waterfall in Vatnajökull National Park" },
+      "geometry": { "type": "Point", "coordinates": [-16.3840, 65.8148] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Mývatn Nature Baths (Jarðböðin)", "description": "Earth Lagoon" },
+      "geometry": { "type": "Point", "coordinates": [-16.8467, 65.6400] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Hverir (Námaskarð)", "description": "Geothermal area" },
+      "geometry": { "type": "Point", "coordinates": [-16.8089, 65.6409] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Akureyri", "description": "Saw polar lights" },
+      "geometry": { "type": "Point", "coordinates": [-18.1262, 65.6885] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Kolugljúfur Canyon" },
+      "geometry": { "type": "Point", "coordinates": [-20.5658, 65.3527] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Reykjavík" },
+      "geometry": { "type": "Point", "coordinates": [-21.9426, 64.1466] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Hallgrímskirkja", "description": "Reykjavík church" },
+      "geometry": { "type": "Point", "coordinates": [-21.9266, 64.1420] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Icelandic Lava Show (Reykjavík)" },
+      "geometry": { "type": "Point", "coordinates": [-21.9335, 64.1469] }
+    },
+    { "type": "Feature",
+      "properties": { "name": "Brúsastaðir" },
+      "geometry": { "type": "Point", "coordinates": [-21.9750867, 64.0760254] }
+    }
+  ]
+}
